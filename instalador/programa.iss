@@ -65,6 +65,11 @@ Name: "{userdesktop}\{#Nome}"; Filename: "{app}\{#Exe}.exe"; Parameters: "{#Args
 Root: HKCU; Subkey: "Software\Grupo Angero\Office Angero\Programas\{#Id}"; ValueType: string; ValueName: "Pasta"; ValueData: "{app}"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\Grupo Angero\Office Angero\Programas\{#Id}"; ValueType: string; ValueName: "Versao"; ValueData: "{#Versao}"
 
+[UninstallDelete]
+; restos da atualização automática (arquivos trocados com o programa aberto)
+Type: files; Name: "{app}\*.old"
+Type: files; Name: "{app}\*.novo"
+
 #include AddBackslash(SourcePath) + "assoc\" + Id + ".iss"
 
 [Run]
