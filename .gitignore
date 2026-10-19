@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# gerados
+icones/previa.png
+dist/
+*.log
+
+# ferramenta de teste local (não publicar)
+ferramentas/simular_pc_fraco.ps1
+
+ferramentas/medir_pc_fraco.ps1
+ferramentas/medir_abertura.ps1

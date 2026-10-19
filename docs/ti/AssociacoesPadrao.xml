@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Office Angerô: associações padrão para a GPO (Configuração do Computador > Modelos Administrativos >
+     Componentes do Windows > Explorador de Arquivos > Definir um arquivo de configuração de associações padrão).
+     Os ProgIds são registrados pelos instaladores do Office Angerô. Gerado por instalador/gerar_associacoes.py. -->
+<DefaultAssociations>
+  <Association Identifier=".docx" ProgId="OfficeAngero.word.docx" ApplicationName="Word - Angerô" />
+  <Association Identifier=".docm" ProgId="OfficeAngero.word.docm" ApplicationName="Word - Angerô" />
+  <Association Identifier=".dotx" ProgId="OfficeAngero.word.dotx" ApplicationName="Word - Angerô" />
+  <Association Identifier=".doc" ProgId="OfficeAngero.word.doc" ApplicationName="Word - Angerô" />
+  <Association Identifier=".xlsx" ProgId="OfficeAngero.excel.xlsx" ApplicationName="Excel - Angerô" />
+  <Association Identifier=".xlsm" ProgId="OfficeAngero.excel.xlsm" ApplicationName="Excel - Angerô" />
+  <Association Identifier=".xltx" ProgId="OfficeAngero.excel.xltx" ApplicationName="Excel - Angerô" />
+  <Association Identifier=".xls" ProgId="OfficeAngero.excel.xls" ApplicationName="Excel - Angerô" />
+  <Association Identifier=".pptx" ProgId="OfficeAngero.powerpoint.pptx" ApplicationName="PowerPoint - Angerô" />
+  <Association Identifier=".pptm" ProgId="OfficeAngero.powerpoint.pptm" ApplicationName="PowerPoint - Angerô" />
+  <Association Identifier=".potx" ProgId="OfficeAngero.powerpoint.potx" ApplicationName="PowerPoint - Angerô" />
+  <Association Identifier=".ppsx" ProgId="OfficeAngero.powerpoint.ppsx" ApplicationName="PowerPoint - Angerô" />
+  <Association Identifier=".ppt" ProgId="OfficeAngero.powerpoint.ppt" ApplicationName="PowerPoint - Angerô" />
+</DefaultAssociations>
