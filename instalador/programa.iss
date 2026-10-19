@@ -70,6 +70,8 @@ Root: HKCU; Subkey: "Software\Grupo Angero\Office Angero\Programas\{#Id}"; Value
 Type: files; Name: "{app}\*.old"
 Type: files; Name: "{app}\*.novo"
 
+; as associações (assoc\<id>.iss) são linhas de registro
+[Registry]
 #include AddBackslash(SourcePath) + "assoc\" + Id + ".iss"
 
 [Run]
